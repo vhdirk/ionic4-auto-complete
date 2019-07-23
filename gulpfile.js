@@ -311,7 +311,7 @@ gulp.task(
   () => {
     return gulp.src(
       [
-        path.join(rootFolder, 'README.MD')
+        path.join(rootFolder, 'README.md')
       ]
     ).pipe(
       gulp.dest(`${distFolder}/`)
